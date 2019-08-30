@@ -1,4 +1,4 @@
-##How it Works##
+## How it Works
 Download and unzip the script file
 ![Unzipped dir in Finder](/images/image3.png)
 
@@ -18,14 +18,14 @@ Once installation is complete, you can right-click on a folder containing an ima
 
 Once the image sequence has been converted, an .MP4 will appear in the same folder as the image sequence. 
 
-##Caveats##
+## Caveats
 - This is not an officially supported Google product.
 
 - Converts JPEG image sequences (30/60fps) to videos only 
 
 - Script will only install FFmpeg and/or Homebrew if FFMPEG is not installed on your computer already. 
 
-##Uninstalling##
+## Uninstalling
 Go to Terminal and paste (this will uninstall FFmpeg and Homebrew):
 ``` shell
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)" 
